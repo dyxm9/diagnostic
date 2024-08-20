@@ -20,9 +20,9 @@
        </footer>
        <script src="script.js"></script>
    </body>
-   </html>```
+   </html>
 
-´´´css
+css
    {
        box-sizing: border-box;
        margin: 0;
@@ -114,9 +114,9 @@
        text-align: center;
        font-size: 0.9em;
        color: #ddd;
-   }```
+   }
  
-´´´ javascript
+ javascript
    function getDiagnosis() {
        const symptoms = document.getElementById('symptoms').value.trim().toLowerCase();
        let diagnosis = "Não foi possível identificar os sintomas. Por favor, consulte um médico.";
